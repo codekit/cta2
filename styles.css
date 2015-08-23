@@ -90,7 +90,7 @@ h2 {
 #cta p.title {
   padding: 15px;
   margin: 10px 0;
-  background: #FF7243;
+  background: #ff7243;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
@@ -118,6 +118,10 @@ h2 {
   color: #fff;
 }
 
+.big-button:hover{
+  background-color: #ef4f24;
+}
+
 #featureWrap {
   width: 100%;
   overflow: hidden;
@@ -127,7 +131,7 @@ h2 {
   float: left;
   width: 300px;
   margin: 0 5px 0 5px;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   padding: 7px;
   text-align: center;
 }
