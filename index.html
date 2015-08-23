@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset='utf-8' />
+    <meta charset="utf-8">
     <title>Responsive Demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href='styles.css' rel='stylesheet'>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet">
   </head>
   <body>
     <div id="wrap">
@@ -19,7 +22,7 @@
           </ul>
         </div>
       </nav>
-      <div id="content">
+      <section id="content">
         <div id="masthead" class="contentBox">
           <div id="contentText">
             <p>
@@ -31,14 +34,14 @@
               </button>
             </div>
           </div>
-        </div>
-        <div id="cta">
+        </section>
+        <section id="cta">
           <p class="title">
             Lorem ipsum dolor sit amet, consectetur
           </p>
-        </div>
-        <div class="contentBox" id="featureWrap">
-          <div class="feature">
+        </section>
+        <section class="contentBox" id="featureWrap">
+          <article class="feature">
             <p class="img">
               <a href="https://placeimg.com" title="Place holder Image"><img src="https://placeimg.com/400/225/tech" width="100%" alt="Any kind of image">
               </a>
@@ -50,8 +53,8 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             <a href="#" class="cta-green">Call To Action</a>
-          </div>
-          <div class="feature">
+          </article>
+          <article class="feature">
             <p class="img">
               <a href="https://placeimg.com" title="Place holder Image"><img src="https://placeimg.com/400/225/nature" width="100%" alt="Any kind of image">
               </a>
@@ -63,8 +66,8 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             <a href="#" class="cta-green">Call To Action</a>
-          </div>
-          <div class="feature">
+          </article>
+          <article class="feature">
             <p class="img">
               <a href="https://placeimg.com" title="Place holder Image"><img src="https://placeimg.com/400/225/people" width="100%" alt="Any kind of image">
               </a>
@@ -76,8 +79,8 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             <a href="#" class="cta-green">Call To Action</a>
-          </div>
-        </div>
+          </article>
+        </section>
       </div>
     </div>
   </body>
